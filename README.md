@@ -14,7 +14,7 @@ pip install bitcoin
 (entropy <-> mnemonics) -> (WIF <-> private key) -> public key -> wallet address
 
 entropy 128bits -> mnemonics
-WIF = wallet import format
+
 
 1bit = 0 / 1
 1byte = 8 bits
@@ -22,4 +22,22 @@ SHA256 = 256 bits, 256/8=32 bytes
 1Hexadecimal character= 4bits
 
 256bits=32bytes=64hexadecimal characters
+```
+
+## WIF
+```
+WIF = wallet import format
+WIF_C = wallet import format compressed, commonly used
+
+Private Key WIF
+51 characters base58, starts with a '5'
+
+Private Key WIF Compressed
+52 characters base58, starts with a 'K' or 'L'
+
+```
+
+## refer
+```
+bitaddress.org
 ```

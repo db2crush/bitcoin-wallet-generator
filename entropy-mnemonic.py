@@ -1,8 +1,8 @@
 from bitcoin import *
 from mnemonic import Mnemonic
 
-# random 128bits entropy as hexadecimal characters
-entropy = '6922ea35cea5879031de0524e444326f'
+# random entropy as hexadecimal characters, 256bits
+entropy = '6922ea35cea5879031de0524e444326f6922ea35cea5879031de0524e444326f'
 
 # initialize
 m = Mnemonic('english')
